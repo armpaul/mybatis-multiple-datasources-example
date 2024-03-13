@@ -28,9 +28,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'org.mybatis:mybatis:3.5.15'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'org.thymeleaf', name: 'thymeleaf-spring6', version: '3.1.2.RELEASE'
 	implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '3.0.3'
 	runtimeOnly 'org.postgresql:postgresql'
-	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.15'
+	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
