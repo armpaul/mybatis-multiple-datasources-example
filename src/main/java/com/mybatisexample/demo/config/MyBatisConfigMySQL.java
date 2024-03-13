@@ -17,7 +17,7 @@ public class MyBatisConfigMySQL {
     public DataSource dataSourceMySQL() {
         DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("com.mysql.cj.jdbc.Driver");
-        dataSourceBuilder.url("jdbc:mysql://localhost/my_system_");
+        dataSourceBuilder.url("jdbc:mysql://localhost/???");
         dataSourceBuilder.username("mybatis");
         dataSourceBuilder.password("12345678");
         return dataSourceBuilder.build();
